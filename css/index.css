@@ -86,7 +86,7 @@ nav{
 	color: #fffc00;
 }
 .cc_l{
-	width: 4.475rem;
+	width: 4.375rem;
 	position: absolute;
 	left: 0;
 	top: 2.55rem;
@@ -95,7 +95,7 @@ nav{
 	overflow: hidden;
 }
 .l_area h1{
-	width: 4.375rem;
+	width: 4.325rem;
 	height: 1.15rem;
 	font-size: 0.6rem;
 	text-align: center;
@@ -104,7 +104,7 @@ nav{
 	background: #efeff0;
 }
 .l_area p{
-	width: 4.375rem;
+	width: 4.325rem;
 	height: 2.5rem;
 	font-size: 0.65rem;
 	text-align: center;
