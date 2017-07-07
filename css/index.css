@@ -40,17 +40,23 @@ form .inp2{
 	border: none;
 	outline: none;
 }
-.nav_bg{
+.main_cc{
 	width: 18.0rem;
-	overflow: hidden;
+	background: #fff;
+	height: 31.875rem;
+}
+.posi_fa{
+	position: relative;
+	left: 0.25rem;
+	width: 17.5rem;
+	height: 31.875rem;
 }
 nav{
 	width: 17.5rem;
 	height: 2.5rem;
 	border-top:1px solid #e0e0e2;
 	border-bottom:1px solid #e0e0e2;
-	overflow: hidden;
-	margin: 0 auto;
+	position: absolute;
 }
 .nav_l{
 	width: 4.475rem;
@@ -79,20 +85,11 @@ nav{
 	font-weight: bold;
 	color: #fffc00;
 }
-.subst{
-	height: 2.55rem;
-	display: none;
-}
-.main_cc{
-	width: 17.5rem;
-	overflow: hidden;
-	margin: 0 auto;
-}
 .cc_l{
 	width: 4.475rem;
-	float: left;
-	overflow: hidden;
-	position: relative;
+	position: absolute;
+	left: 0;
+	top: 2.55rem;
 }
 .l_area{
 	overflow: hidden;
@@ -121,8 +118,10 @@ nav{
 }
 .cc_r{
 	width: 12.5rem;
-	float: right;
 	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 2.55rem;
 }
 .area_sch{
 	display: none;
@@ -161,6 +160,13 @@ nav{
 .school div a:nth-child(4){
 	background: #e60012;
 }
+.cc_l,.cc_r{
+	height: 29.5rem;
+	overflow-y:auto;
+}
+
+
+
 .foot{
 	margin-top: 0.75rem;
 	width: 18.0rem;
