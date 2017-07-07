@@ -43,13 +43,13 @@ form .inp2{
 .main_cc{
 	width: 18.0rem;
 	background: #fff;
-	height: 31.875rem;
 }
 .posi_fa{
 	position: relative;
 	left: 0.25rem;
 	width: 17.5rem;
-	height: 31.875rem;
+	height: 32.025rem;
+	border-bottom: 1px solid #e0e0e2;
 }
 nav{
 	width: 17.5rem;
